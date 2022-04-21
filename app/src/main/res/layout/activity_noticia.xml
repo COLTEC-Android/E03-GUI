@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".noticia">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titulo"
+        android:text="Sexta-feira não é feriado!"
+        android:textSize="30dp"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:background="#708090"
+        android:layout_marginBottom="25dp"
+        android:padding="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titulo"
+        android:id="@+id/subtitulo"
+        android:text="Alunos do COLTEC não ganham ponto facultativo pós feriado : ("
+        android:background="#4682B4"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="25dp"
+        android:padding="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subtitulo"
+        android:id="@+id/corponoticia"
+        android:text="Após comemorarem feriado e ponto facultativo, alunos do COLTEC recebem a nóticia de que sexta-feira tem aula sim!Com calendário apertado e o tempo escasso só resta ir para o Campus na sexta-feira à noite.A parte boa disso tudo é que eles não estarão sozinhos, já que vários cursos estão na mesma situação de calendário pós-pandemico."
+        android:background="#B0C4DE"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="25dp"
+        android:padding="15dp"
+        />
+
+
+
+</RelativeLayout>
