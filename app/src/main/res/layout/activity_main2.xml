@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/txt_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Noticia" />
+
+    <TextView
+        android:id="@+id/txt_Subtitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_titulo"
+        android:text="Subtitulo" />
+
+    <TextView
+        android:id="@+id/txt_autor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_Subtitulo"
+        android:layout_alignParentRight="true"
+        android:text="Gabriel Vieira" />
+
+    <TextView
+        android:id="@+id/txt_noticia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_autor"
+        android:text="Noticia aqui bla bla" />
+
+    <TextView
+        android:id="@+id/txt_horario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_noticia"
+        android:layout_alignParentRight="true"
+        android:text="20/04/2021 - 20:58" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="88dp"
+        android:layout_height="97dp"
+        android:layout_below="@id/txt_horario"
+        android:layout_alignParentLeft="true"
+        app:srcCompat="@drawable/autorfoto" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gabriel Vieira - 2021953372@teiacoltec.org"
+        android:layout_below="@id/imageView" />
+
+</RelativeLayout>
