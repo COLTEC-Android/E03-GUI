@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Noticia"
+    android:layout_centerHorizontal="true"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titulo da noticia"
+        android:textSize="20dp"
+        android:id="@+id/titulo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtitulo da noticia"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/titulo"
+        android:textSize="15dp"
+        android:id="@+id/subtitulo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subtitulo"
+        android:layout_alignParentRight="true"
+        android:text="Autor: Rafael Assuncao"
+        android:textSize="10dp"
+        android:id="@+id/autor"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/corpoNoticia"
+        android:layout_below="@id/autor"
+        android:text="Noticia esta escrita por aqui bla bla bla bla \nblabla"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/corpoNoticia"
+        android:id="@+id/horario"
+        android:text="Postado 20:47 - 20/04/22"/>
+
+    <ImageView
+        android:id="@+id/fotoAutor"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/horario"
+        android:src="@drawable/bob"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contatos: Rafael Assunção - rafaaslat@gmail.com"
+        android:layout_below="@id/horario"
+        android:layout_toRightOf="@id/fotoAutor" />
+
+</RelativeLayout>
