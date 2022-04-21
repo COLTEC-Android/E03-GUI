@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrevisaoDoTempo"
+    android:stretchColumns="1" >
+
+    <TableRow android:layout_weight="1">
+
+        <TextView android:text="Hoje" android:padding="3dip" android:textSize="20dp"/>
+        <ImageView android:src="@drawable/img_1" android:layout_width="20dp"
+        android:layout_height="50dp" />
+        <TextView android:text="21ºC\n31°C" android:padding="3dip" android:textSize="15dp"/>
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <TextView android:text="Amanhã" android:padding="3dip" android:textSize="20dp"/>
+        <ImageView android:src="@drawable/img_1" android:layout_width="20dp"
+            android:layout_height="50dp" />
+        <TextView android:text="21ºC\n31°C" android:padding="3dip" android:textSize="15dp"/>
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <TextView android:text="Sexta-feira, 22 de abr" android:padding="3dip" android:textSize="20dp"/>
+        <ImageView android:src="@drawable/img_1" android:layout_width="20dp"
+            android:layout_height="50dp" />
+        <TextView android:text="21ºC\n31°C" android:padding="3dip" android:textSize="15dp"/>
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <TextView android:text="Sábado, 23 de abr" android:padding="3dip" android:textSize="20dp"/>
+        <ImageView android:src="@drawable/img_1" android:layout_width="20dp"
+            android:layout_height="50dp" />
+        <TextView android:text="21ºC\n31°C" android:padding="3dip" android:textSize="15dp"/>
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <TextView android:text="Domingo, 24 de abr" android:padding="3dip" android:textSize="20dp"/>
+        <ImageView android:src="@drawable/img_1" android:layout_width="20dp"
+            android:layout_height="50dp" />
+        <TextView android:text="21ºC\n31°C" android:padding="3dip" android:textSize="15dp"/>
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <TextView android:text="Segunda-feira, 25 de abr" android:padding="3dip" android:textSize="20dp"/>
+        <ImageView android:src="@drawable/img_1" android:layout_width="20dp"
+            android:layout_height="50dp" />
+        <TextView android:text="21ºC\n31°C" android:padding="3dip" android:textSize="15dp"/>
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <TextView android:text="Terça-feira, 26 de abr" android:padding="3dip" android:textSize="20dp"/>
+        <ImageView android:src="@drawable/img_1" android:layout_width="20dp"
+            android:layout_height="50dp" />
+        <TextView android:text="21ºC\n31°C" android:padding="3dip" android:textSize="15dp"/>
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <TextView android:text="Quarta-feira, 27 de abr" android:padding="3dip" android:textSize="20dp"/>
+        <ImageView android:src="@drawable/img_1" android:layout_width="20dp"
+            android:layout_height="50dp" />
+        <TextView android:text="21ºC\n31°C" android:padding="3dip" android:textSize="15dp"/>
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <TextView android:text="Quinta-feira, 28 de abr" android:padding="3dip" android:textSize="20dp"/>
+        <ImageView android:src="@drawable/img_1" android:layout_width="20dp"
+            android:layout_height="50dp" />
+        <TextView android:text="21ºC\n31°C" android:padding="3dip" android:textSize="15dp"/>
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <TextView android:text="Sexta-feira, 29 de abr" android:padding="3dip" android:textSize="20dp"/>
+        <ImageView android:src="@drawable/img_1" android:layout_width="20dp"
+            android:layout_height="50dp" />
+        <TextView android:text="21ºC\n31°C" android:padding="3dip" android:textSize="15dp"/>
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <TextView android:text="Sábado, 30 de abr" android:padding="3dip" android:textSize="20dp"/>
+        <ImageView android:src="@drawable/img_1" android:layout_width="20dp"
+            android:layout_height="50dp" />
+        <TextView android:text="21ºC\n31°C" android:padding="3dip" android:textSize="15dp"/>
+    </TableRow>
+
+
+</TableLayout>

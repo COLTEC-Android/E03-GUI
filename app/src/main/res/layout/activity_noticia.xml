@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="br.ufmg.coltec.tp.e03_layout.MainActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Título da notícia"
+    android:id="@+id/txt_titulo"
+    android:textSize="30dp"
+    android:layout_centerHorizontal="true"
+    android:textStyle="bold"
+    />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Subtítulo da notícia"
+    android:id="@+id/txt_subTitulo"
+    android:textSize="15dp"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/txt_titulo" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Nome do autor da notícia"
+    android:id="@+id/txt_autor"
+    android:textSize="10dp"
+    android:layout_alignParentRight="true"
+    android:layout_below="@+id/txt_subTitulo"
+    android:textStyle="bold"
+    />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="A notícia é um gênero textual jornalístico. É um texto narrativo e informativo, pois relata um fato e transmite informações sobre determinado tema. A função da notícia é informar fatos atuais e de interesse social.
+
+A notícia também busca ser objetiva e apresentar o fato de maneira rápida, contando o que realmente interessa para o leitor logo no início do texto."
+    android:id="@+id/txt_corpo"
+    android:textSize="20dp"
+    android:layout_below="@+id/txt_autor"
+
+    />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Postagem: 00:00"
+    android:id="@+id/txt_horario"
+    android:textSize="10dp"
+    android:layout_alignParentRight="true"
+    android:layout_below="@+id/txt_corpo"
+    android:textStyle="bold"
+    />
+
+
+<ImageView
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_below="@+id/txt_horario"
+    android:id="@+id/png_foto"
+    android:src="@drawable/img"
+    android:layout_alignParentLeft="true"
+
+
+    />
+
+<TextView
+    android:id="@+id/txt_informacoesAutor"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignBottom="@+id/png_foto"
+
+
+    android:text="Nome do autor \nContato: autor@email.com"
+    android:textSize="10dp"
+    android:textStyle="bold" />
+
+</RelativeLayout>
