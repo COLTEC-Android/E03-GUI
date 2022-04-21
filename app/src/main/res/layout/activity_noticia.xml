@@ -37,7 +37,7 @@
         android:layout_height="500dp"
         android:id="@+id/corpoNoticia"
         android:layout_below="@id/autor"
-        android:text="Noticia esta escrita por aqui bla bla bla bla \nblabla"/>
+        android:text="@string/textoNoticia"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
