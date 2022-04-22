@@ -6,7 +6,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "edu.coltec.ufmg.rafaalt.ex03layouts"
+        applicationId "edu.coltec.ufmg.rafaalt.ex03_layouts"
         minSdk 23
         targetSdk 32
         versionCode 1

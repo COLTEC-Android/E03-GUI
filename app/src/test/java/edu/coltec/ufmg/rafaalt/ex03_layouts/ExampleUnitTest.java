@@ -1,4 +1,4 @@
-package edu.coltec.ufmg.rafaalt.ex03layouts;
+package edu.coltec.ufmg.rafaalt.ex03_layouts;
 
 import org.junit.Test;
 

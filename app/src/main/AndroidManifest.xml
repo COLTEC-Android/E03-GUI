@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.coltec.ufmg.rafaalt.ex03layouts">
+    package="edu.coltec.ufmg.rafaalt.ex03_layouts">
 
     <application
         android:allowBackup="true"
@@ -8,18 +8,18 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Ex03Layouts">
+        android:theme="@style/Theme.Ex03_Layouts">
         <activity
-            android:name=".Formulario"
+            android:name=".NoticiaActivity"
             android:exported="false" />
         <activity
-            android:name=".PrevisaoTempo"
+            android:name=".FormularioAcvtivity"
             android:exported="false" />
         <activity
-            android:name=".Noticia"
+            android:name=".SplashActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashScreen"
+            android:name=".PrevisaoActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

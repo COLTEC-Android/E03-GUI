@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PrevisaoTempo"
+    tools:context=".PrevisaoActivity"
     android:background="@color/lightBlue">
-
     <TableRow>
         <TextView
             android:layout_marginLeft="50dp"
@@ -154,5 +153,6 @@
             android:padding="20dp"
             android:textColor="@color/black"/>
     </TableRow>
+
 
 </TableLayout>

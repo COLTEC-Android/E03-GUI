@@ -1,14 +1,14 @@
-package edu.coltec.ufmg.rafaalt.ex03layouts;
+package edu.coltec.ufmg.rafaalt.ex03_layouts;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Noticia extends AppCompatActivity {
+public class SplashActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_noticia);
+        setContentView(R.layout.activity_splash);
     }
 }

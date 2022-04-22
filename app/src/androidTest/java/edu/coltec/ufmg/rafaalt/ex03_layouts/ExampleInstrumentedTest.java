@@ -1,4 +1,4 @@
-package edu.coltec.ufmg.rafaalt.ex03layouts;
+package edu.coltec.ufmg.rafaalt.ex03_layouts;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("edu.coltec.ufmg.rafaalt.ex03layouts", appContext.getPackageName());
+        assertEquals("edu.coltec.ufmg.rafaalt.ex03_layouts", appContext.getPackageName());
     }
 }
