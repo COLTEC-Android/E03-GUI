@@ -1,9 +1,10 @@
 package br.ufmg.coltec.tp.e03_layout;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class noticia extends AppCompatActivity {
+public class noticia extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
