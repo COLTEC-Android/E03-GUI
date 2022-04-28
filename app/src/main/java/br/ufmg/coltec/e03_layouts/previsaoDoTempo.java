@@ -9,6 +9,6 @@ public class previsaoDoTempo extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_previsao_do_tempo);
+        setContentView(R.layout.activity_clima);
     }
 }
