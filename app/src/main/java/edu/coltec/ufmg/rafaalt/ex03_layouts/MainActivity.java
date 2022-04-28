@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         Button btnForms = findViewById(R.id.btnFormulario);
 
         btnSplash.setOnClickListener((view -> {
+            //Toast.makeText(MainActivity.this, "Oi", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(MainActivity.this, SplashActivity.class);
             startActivity(intent);
         }));

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dia1">Today\nSunny day</string>
+    <string name="dia2">Tomorrow\nCloudy day</string>
+    <string name="dia3">Saturday, April 23\nCloudy day</string>
+    <string name="dia4">Sunday, April 24\nSunny day</string>
+    <string name="dia5">Monday, April 25\nCloudy day</string>
+    <string name="dia6">Tuesday, April 26\nRains throughout the day</string>
+    <string name="dia7">Wednesday, April 27\nHeavy rains</string>
+    <string name="dia8">Thursday, April 28\nRains throughout the day</string>
+
+</resources>

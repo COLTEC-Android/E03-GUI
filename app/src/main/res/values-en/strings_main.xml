@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txtPrincipal">MAIN SCREEN!</string>
+    <string name="btnSplash">Splash Screen</string>
+    <string name="btnNoticia">News</string>
+    <string name="btnPrevisao">Weather Forecast</string>
+    <string name="btnForms">Form</string>
+</resources>

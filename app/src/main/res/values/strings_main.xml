@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txtPrincipal">TELA PRINCIPAL!</string>
+    <string name="btnSplash">Splash Screen</string>
+    <string name="btnNoticia">Noticia</string>
+    <string name="btnPrevisao">Previsao do Tempo</string>
+    <string name="btnForms">Formulario</string>
+</resources>

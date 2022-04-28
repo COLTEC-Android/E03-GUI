@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dia1">Hoje\nDia ensolarado</string>
+    <string name="dia2">Amanha\nDia nublado</string>
+    <string name="dia3">Sábado, 23 de abril\nDia nublado</string>
+    <string name="dia4">Domingo, 24 de abril\nDia ensolarado</string>
+    <string name="dia5">Segunda, 25 de abril\nDia nublado</string>
+    <string name="dia6">Terça, 26 de abril\nChuvas ao longo do dia</string>
+    <string name="dia7">Quarta, 27 de abril\nChuvas fortes</string>
+    <string name="dia8">Quinta, 28 de abril\nChuvas ao longo do dia</string>
+</resources>

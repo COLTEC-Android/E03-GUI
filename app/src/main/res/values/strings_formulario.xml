@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+    <string name="comentarios">Comentarios:</string>
+    <string name="notas">Notas</string>
+    <string name="txtBotao">Enviar</string>
+    <string name="tituloAvisao">Cuidado</string>
+    <string name="msgAviso">Tem certeza que deseja enviar o formulario?</string>
+    <string name="txtBtnCancel">Cancelar</string>
+    <string name="txtAcceptDialog">Formulario enviado com sucesso.</string>
+    <string name="txtCancelDialog">Envio cancelado.</string>
+</resources>

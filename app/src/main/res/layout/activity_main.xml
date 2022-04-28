@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TELA PRINCIPAL!"
+        android:text="@string/txtPrincipal"
         android:layout_gravity="center"
         android:textSize="30dp"
         android:layout_marginTop="120dp"/>
@@ -18,7 +18,7 @@
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Splash Screen"
+        android:text="@string/btnSplash"
         android:backgroundTint="@color/lightBlue"
         android:layout_gravity="center"
         android:layout_marginTop="70dp"
@@ -26,7 +26,7 @@
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Noticia"
+        android:text="@string/btnNoticia"
         android:backgroundTint="@color/lightPink"
         android:layout_gravity="center"
         android:layout_marginTop="60dp"
@@ -34,7 +34,7 @@
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Previsao do Tempo"
+        android:text="@string/btnPrevisao"
         android:backgroundTint="@color/yellow"
         android:layout_gravity="center"
         android:layout_marginTop="60dp"
@@ -42,7 +42,7 @@
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Formulario"
+        android:text="@string/btnForms"
         android:backgroundTint="@color/gray"
         android:layout_gravity="center"
         android:layout_marginTop="60dp"

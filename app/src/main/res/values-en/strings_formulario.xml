@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nome">Name</string>
+    <string name="email">E-mail</string>
+    <string name="comentarios">Comments:</string>
+    <string name="notas">Rating</string>
+    <string name="txtBotao">Submit</string>
+    <string name="tituloAvisao">Warning</string>
+    <string name="msgAviso">Are you sure you want to submit the form?</string>
+    <string name="txtBtnCancel">Cancel</string>
+    <string name="txtAcceptDialog">Form submitted sucsessfully.</string>
+    <string name="txtCancelDialog">Submit canceled.</string>
+</resources>

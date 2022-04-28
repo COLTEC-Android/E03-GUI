@@ -8,27 +8,27 @@
     android:background="@color/lightBlue">
     <TableRow>
         <TextView
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="20dp"
-            android:text="Hoje\nDia ensolarado"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/dia1"
             android:padding="20dp"
             android:textColor="@color/black"/>
         <ImageView
             android:src="@drawable/sol"
             android:layout_height="75dp"
             android:padding="5dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="50dp"
             android:layout_width="75dp"/>
         <TextView
             android:text="30*\n20*"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="50dp"
             android:padding="20dp"
             android:textColor="@color/black"/>
     </TableRow>
     <TableRow>
         <TextView
-            android:layout_marginLeft="50dp"
-            android:text="Amanha\nDia nublado"
+            android:layout_marginLeft="20dp"
+            android:text="@string/dia2"
             android:padding="20dp"
             android:textColor="@color/black"/>
         <ImageView
@@ -43,8 +43,8 @@
     </TableRow>
     <TableRow>
         <TextView
-            android:layout_marginLeft="50dp"
-            android:text="Sábado, 23 de abril\nDia nublado"
+            android:layout_marginLeft="20dp"
+            android:text="@string/dia3"
             android:padding="20dp"
             android:textColor="@color/black"/>
         <ImageView
@@ -59,8 +59,8 @@
     </TableRow>
     <TableRow>
         <TextView
-            android:layout_marginLeft="50dp"
-            android:text="Domingo, 24 de abril\nDia ensolarado"
+            android:layout_marginLeft="20dp"
+            android:text="@string/dia4"
             android:padding="20dp"
             android:textColor="@color/black"/>
         <ImageView
@@ -75,8 +75,8 @@
     </TableRow>
     <TableRow>
         <TextView
-            android:layout_marginLeft="50dp"
-            android:text="Segunda, 25 de abril\nDia nublado"
+            android:layout_marginLeft="20dp"
+            android:text="@string/dia5"
             android:padding="20dp"
             android:textColor="@color/black"/>
         <ImageView
@@ -91,8 +91,8 @@
     </TableRow>
     <TableRow>
         <TextView
-            android:layout_marginLeft="50dp"
-            android:text="Terça, 26 de abril\nChuvas ao longo do dia"
+            android:layout_marginLeft="20dp"
+            android:text="@string/dia6"
             android:padding="20dp"
             android:textColor="@color/black"/>
         <ImageView
@@ -107,8 +107,8 @@
     </TableRow>
     <TableRow>
         <TextView
-            android:layout_marginLeft="50dp"
-            android:text="Quarta, 27 de abril\nChuvas fortes "
+            android:layout_marginLeft="20dp"
+            android:text="@string/dia7"
             android:padding="20dp"
             android:textColor="@color/black"/>
         <ImageView
@@ -123,8 +123,8 @@
     </TableRow>
     <TableRow>
         <TextView
-            android:layout_marginLeft="50dp"
-            android:text="Quinta, 28 de abril\nChuvas ao longo do dia"
+            android:layout_marginLeft="20dp"
+            android:text="@string/dia8"
             android:padding="20dp"
             android:textColor="@color/black"/>
         <ImageView
@@ -134,22 +134,6 @@
             android:layout_width="75dp"/>
         <TextView
             android:text="26*\n19*"
-            android:padding="20dp"
-            android:textColor="@color/black"/>
-    </TableRow>
-    <TableRow>
-        <TextView
-            android:layout_marginLeft="50dp"
-            android:text="Sexta, 29 de abril\nDia ensolarado"
-            android:padding="20dp"
-            android:textColor="@color/black"/>
-        <ImageView
-            android:src="@drawable/sol"
-            android:layout_height="75dp"
-            android:padding="5dp"
-            android:layout_width="75dp"/>
-        <TextView
-            android:text="29*\n22*"
             android:padding="20dp"
             android:textColor="@color/black"/>
     </TableRow>

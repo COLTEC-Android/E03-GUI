@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="Nome:"/>
+        android:text="@string/nome"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,7 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="Email:"/>
+        android:text="@string/email"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -28,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="Comentarios:"/>
+        android:text="@string/comentarios"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="Notas:"/>
+        android:text="@string/notas"/>
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -67,7 +67,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ENVIAR"
-        android:layout_gravity="center"/>
+        android:text="@string/txtBotao"
+        android:layout_gravity="center"
+        android:id="@+id/btnEnviar"/>
 
 </LinearLayout>
