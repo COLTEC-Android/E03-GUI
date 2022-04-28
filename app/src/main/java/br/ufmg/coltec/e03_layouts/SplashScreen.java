@@ -1,11 +1,10 @@
-package br.ufmg.coltec.tp.e03_layout;
+package br.ufmg.coltec.e03_layouts;
 
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
-import br.ufmg.coltec.e03_layouts.R;
-
-public class MainActivity extends Activity {
+public class SplashScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

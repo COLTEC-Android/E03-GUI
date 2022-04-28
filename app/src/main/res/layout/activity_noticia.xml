@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".noticia">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#708090"
+        android:text="Sexta-feira não é feriado!"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/subtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titulo"
+        android:background="#4682B4"
+        android:text="Alunos do COLTEC não ganham ponto facultativo pós feriado : ("
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/autor"
+        android:text="Samuel Moreira Marques"
+        android:background="#4682B4"
+        android:layout_below="@+id/subtitulo"
+        android:layout_alignRight="@id/subtitulo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/autor"
+        android:id="@+id/corponoticia"
+        android:text="Após comemorarem feriado e ponto facultativo, alunos do COLTEC recebem a nóticia de que sexta-feira tem aula sim!Com calendário apertado e o tempo escasso só resta ir para o Campus na sexta-feira à noite."
+        android:background="#B0C4DE"
+        android:textSize="10dp"
+        android:textColor="@color/black"
+        />
+
+    <TimePicker
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/corponoticia"
+        android:layout_alignRight="@id/corponoticia"
+        android:timePickerMode="spinner" />
+
+    <ImageView
+        android:id="@+id/fotoautor"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/time"
+        android:layout_alignLeft="@id/corponoticia"
+        app:srcCompat="@drawable/autor" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/time"
+        android:layout_toRightOf="@id/fotoautor"
+        android:text="Contato: Samuel - samuel.pogum@gmail.com" />
+
+
+</RelativeLayout>
