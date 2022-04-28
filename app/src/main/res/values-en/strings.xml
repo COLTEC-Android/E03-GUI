@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E03</string>
+    <string name="Segunda">Monday</string>
+    <string name="Terça">Tuesday</string>
+    <string name="Quarta">Wednesday</string>
+    <string name="Quinta">Thursday</string>
+    <string name="Sexta"> Friday</string>
+    <string name="Sabado">Saturday</string>
+    <string name="Domingo">Sunday</string>
+    <string name="Hoje">Today</string>
+    <string name="Nome">Name</string>
+    <string name="email">E-Mail</string>
+    <string name="Comentario">Comment</string>
+    <string name="Nota">Note</string>
+    <string name="CeuAberto">Clear sky</string>
+    <string name="Enviar">To send</string>
+    <string name="Titulo">Climate and weather forecast</string>
+</resources>

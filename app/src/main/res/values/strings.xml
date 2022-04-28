@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">E03</string>
+    <string name="Segunda">Segunda-feira</string>
+    <string name="Terça">Terça-Feira</string>
+    <string name="Quarta">Quarta-feira</string>
+    <string name="Quinta">Quinta-feira</string>
+    <string name="Sexta">Sexta-feira</string>
+    <string name="Sabado">Sabado</string>
+    <string name="Domingo">Domingo</string>
+    <string name="Hoje">Hoje</string>
+    <string name="Nome">Nome</string>
+    <string name="email">E-Mail</string>
+    <string name="Comentario">Comentario</string>
+    <string name="Nota">Nota</string>
+    <string name="CeuAberto">Ceu Aberto</string>
+    <string name="Enviar">Enviar</string>
+    <string name="Titulo">Clima e Previsão do tempo</string>
+
 </resources>

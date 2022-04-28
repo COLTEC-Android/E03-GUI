@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="Nome:" />
+        android:text="@string/Nome" />
 
     <EditText
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="E-mail:" />
+        android:text="@string/email" />
 
     <EditText
         android:layout_width="match_parent"
@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="Comentario:" />
+        android:text="@string/Comentario" />
 
     <EditText
         android:layout_width="match_parent"
@@ -46,7 +46,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="Nota:" />
+        android:text="@string/Nota" />
 
     <EditText
         android:id="@+id/editTextNumber"
@@ -56,10 +56,10 @@
         android:inputType="number" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_enviar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enviar" />
+        android:text="@string/Enviar" />
 
 
 </LinearLayout>

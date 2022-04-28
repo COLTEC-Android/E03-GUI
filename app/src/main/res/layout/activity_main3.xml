@@ -15,7 +15,7 @@
             android:layout_span="4"
             android:background="#4287f5"
             android:padding="5dip"
-            android:text="Clima e Previsão do tempo"
+            android:text="@string/Titulo"
             android:textSize="20dp" />
 
     </TableRow>
@@ -23,11 +23,11 @@
         <TextView
             android:padding="5dip"
             android:textSize="20dp"
-            android:text="Hoje" />
+            android:text="@string/Hoje" />
         <TextView
             android:padding="5dip"
             android:textSize="20dp"
-            android:text="Céu Aberto" />
+            android:text="@string/CeuAberto" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -46,11 +46,11 @@
         <TextView
             android:padding="5dip"
             android:textSize="20dp"
-            android:text="Quinta-feira " />
+            android:text="@string/Quinta" />
         <TextView
             android:padding="5dip"
             android:textSize="20dp"
-            android:text="Céu Aberto" />
+            android:text="@string/CeuAberto" />
 
         <ImageView
             android:layout_width="80dp"
@@ -67,11 +67,11 @@
         <TextView
             android:padding="5dip"
             android:textSize="20dp"
-            android:text="Sexta-feira " />
+            android:text="@string/Sexta" />
         <TextView
             android:padding="5dip"
             android:textSize="20dp"
-            android:text="Céu Aberto" />
+            android:text="@string/CeuAberto" />
 
         <ImageView
             android:layout_width="80dp"
@@ -88,11 +88,11 @@
         <TextView
             android:padding="5dip"
             android:textSize="20dp"
-            android:text="Sabado " />
+            android:text="@string/Sabado" />
         <TextView
             android:padding="5dip"
             android:textSize="20dp"
-            android:text="Céu Aberto" />
+            android:text="@string/CeuAberto" />
 
         <ImageView
             android:layout_width="80dp"
@@ -109,11 +109,11 @@
         <TextView
             android:padding="5dip"
             android:textSize="20dp"
-            android:text="Domingo " />
+            android:text="@string/Domingo" />
         <TextView
             android:padding="5dip"
             android:textSize="20dp"
-            android:text="Céu Aberto" />
+            android:text="@string/CeuAberto" />
 
         <ImageView
             android:layout_width="80dp"
