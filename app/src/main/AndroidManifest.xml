@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.E03Layouts">
         <activity
+            android:name=".formulario"
+            android:exported="false" />
+        <activity
             android:name=".previsaoDoTempo"
             android:exported="false" />
         <activity
