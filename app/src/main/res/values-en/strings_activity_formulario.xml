@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="msg_nome">Name</string>
+    <string name="msg_email">Email</string>
+    <string name="msg_comentarios">Comments</string>
+    <string name="msg_nota">Grade (scale from 1 to 5)</string>
+    <string name="msg_btn_enviar_comentario">Send comment</string>
+    <string name="msg_aviso">Warning</string>
+    <string name="msg_texto_aviso">Are you sure you want to submit the comment?</string>
+    <string name="msg_btn_enviar">Send</string>
+    <string name="msg_btn_cancelar">Cancel</string>
+    <string name="msg_toast_enviado">Comment sent!</string>
+    <string name="msg_toast_cancelado">Comment not sent!</string>
+
+
+</resources>

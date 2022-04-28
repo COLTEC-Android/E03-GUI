@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="msg_dia1">Today</string>
+    <string name="msg_dia2">Tomorrow</string>
+    <string name="msg_dia3">Friday, day 29</string>
+    <string name="msg_dia4">Saturday, day 30</string>
+    <string name="msg_dia5">Sunday, day 1</string>
+    <string name="msg_dia6">Monday, day 2</string>
+    <string name="msg_dia7">Tuesday, day 3</string>
+    <string name="msg_dia8">Wednesday, day 4</string>
+    <string name="msg_dia9">Thursday, day 5</string>
+    <string name="msg_dia10">Friday, day 6</string>
+    <string name="msg_dia11">Saturday, day 7</string>
+
+</resources>
