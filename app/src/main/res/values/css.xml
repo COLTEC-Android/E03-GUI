@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Titulo">
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_toRightOf">@id/img_place_photo</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="descricao">
+        <item name="android:layout_alignLeft">@id/txt_place_name</item>
+        <item name="android:layout_below">@id/txt_place_name</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="distance">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignBottom">@id/img_place_photo</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="imagem">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
+    </style>
+
+</resources>

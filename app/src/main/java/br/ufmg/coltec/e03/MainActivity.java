@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         Button btn_relative = this.findViewById(R.id.relative);
         Button btn_table = this.findViewById(R.id.table);
         Button btn_linear = this.findViewById(R.id.linear);
+        Button btn_LayoutsAdapters = this.findViewById(R.id.LayoutsAdapters);
 
         btn_relative.setOnClickListener((view) -> {
                 //Abrindo a segunda tela.
@@ -34,6 +35,12 @@ public class MainActivity extends AppCompatActivity {
             //Abrindo a segunda tela.
             Intent quartaTela = new Intent(MainActivity.this, MainActivity4.class);
             startActivity(quartaTela);
+        });
+
+        btn_LayoutsAdapters.setOnClickListener((view) -> {
+            //Abrindo a segunda tela.
+            Intent quintaTela = new Intent(MainActivity.this, MainActivity5.class);
+            startActivity(quintaTela);
         });
     }
 }
