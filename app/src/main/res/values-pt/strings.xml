@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">E03 - Layouts</string>
+    <string name="previs_o_do_tempo">Previsão do Tempo</string>
+    <string name="terca_feira">Terça-feira</string>
+    <string name="quarta_feira">Quarta-feira</string>
+    <string name="quinta_feira" >Quinta-feira</string>
+    <string name="sexta_feira" >Sexta-feira</string>
+    <string name="sabado" >Sábado</string>
+    <string name="domingo">Domingo</string>
+
+    <string name="avalia_titulo" >Avalie esse APP!</string>
+    <string name="nome" >Nome:</string>
+    <string name="email" >E-mail:</string>
+    <string name="comentario">Comentario:</string>
+    <string name="nota">Nota:</string>
+    <string name="enviar">Enviar:</string>
 </resources>

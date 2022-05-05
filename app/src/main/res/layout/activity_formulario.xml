@@ -11,18 +11,19 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Avalie esse APP!"
+        android:text="@string/avalia_titulo"
         android:background="#708090"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="@color/black"
         android:textSize="30dp"
+        android:id="@+id/titulo"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nome:"
+        android:text="@string/nome"
         android:paddingTop="5dp"
         />
     <EditText
@@ -32,7 +33,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="E-mail:"
+        android:text="@string/email"
         android:paddingTop="5dp"
         />
     <EditText
@@ -42,7 +43,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Comentário:"
+        android:text="@string/comentario"
         android:paddingTop="5dp"
         />
     <EditText
@@ -60,7 +61,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nota:"
+        android:text="@string/nota"
         android:paddingTop="5dp"
         />
     <RatingBar
@@ -73,7 +74,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/comentar"
-        android:text="Enviar"
+        android:text="@string/enviar"
         android:paddingTop="5dp"
         />
 
