@@ -4,5 +4,23 @@
     <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
         <!-- Customize your theme here. -->
     </style>
-
+    <style name="tamanhoImagem">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">90dp</item>
+</style>
+    <style name="tituloLugar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+    </style>
+    <style name="descricao">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="distancia">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
 </resources>
