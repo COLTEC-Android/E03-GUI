@@ -1,14 +1,17 @@
 package br.ufmg.coltec.e03_adapters;
 
+import android.graphics.drawable.Drawable;
+
 /**
  * Created by jemaf on 07/03/18.
  */
 public class Place {
 
-    private String name;        // nome do local
-    private Integer photoId;    // id da foto do local
-    private Double distance;    // distância (em km)
-    private Double rate;        // nota (1 a 5)
+    private String name;
+    private Integer photoId;
+    private Double distance;
+    private String description;
+    private Double rate;
 
     /**
      * Construtor
@@ -17,10 +20,11 @@ public class Place {
      * @param distance Distância do local em KM
      * @param rate Nota do local (1 a 5)
      */
-    public Place(String name, Integer photoId, Double distance, Double rate) {
+    public Place(String name, Integer photoId, Double distance, Double rate, String description) {
         this.name = name;
         this.photoId = photoId;
         this.distance = distance;
+        this.description = description;
         this.rate = rate;
     }
 
@@ -28,7 +32,7 @@ public class Place {
      * Construtor padrão
      */
     public Place() {
-        this(null, null, null, null);
+        this(null, null, null, null, null);
     }
 
     public String getName() {
@@ -61,5 +65,13 @@ public class Place {
 
     public void setRate(Double rate) {
         this.rate = rate;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }
