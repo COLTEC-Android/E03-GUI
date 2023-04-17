@@ -13,6 +13,13 @@
         android:theme="@style/Theme.E03GUI"
         tools:targetApi="31">
         <activity
+            android:name=".PrevActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".NoticiaActivity"
             android:exported="false">
             <meta-data
