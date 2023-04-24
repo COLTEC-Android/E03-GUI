@@ -8,7 +8,8 @@ public class Place {
     private String name;        // nome do local
     private Integer photoId;    // id da foto do local
     private Double distance;    // distância (em km)
-    private Double rate;        // nota (1 a 5)
+    private Float rate;        // nota (1 a 5)
+    private String description;
 
     /**
      * Construtor
@@ -17,18 +18,31 @@ public class Place {
      * @param distance Distância do local em KM
      * @param rate Nota do local (1 a 5)
      */
-    public Place(String name, Integer photoId, Double distance, Double rate) {
+    public Place(String name, Integer photoId, Double distance, Float rate, String description) {
         this.name = name;
         this.photoId = photoId;
         this.distance = distance;
         this.rate = rate;
+        this.description = description;
+    }
+
+    public void setPhotoId(Integer photoId) {
+        this.photoId = photoId;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     /**
      * Construtor padrão
      */
     public Place() {
-        this(null, null, null, null);
+        this(null, null, null, null, null);
     }
 
     public String getName() {
@@ -55,11 +69,12 @@ public class Place {
         this.distance = distance;
     }
 
-    public Double getRate() {
+    public Float getRate() {
         return rate;
     }
 
-    public void setRate(Double rate) {
+    public void setRate(Float rate) {
         this.rate = rate;
     }
+
 }
