@@ -23,8 +23,8 @@ public class PlacesAdapter extends BaseAdapter {
     }
 
     public void carregaLista(){
-        this.places.add(new Place("Rua do Ouro", 1234, 2.4, 3.5F, "rua esquisita ali do bairro"));
-        this.places.add(new Place("Praça da Liberdade", 4321, 6.4, 4.0F, "Praça famosa de bh"));
+        this.places.add(new Place("Rua do Ouro", R.drawable.ic_launcher_background, 2.4, 3.5F, "rua esquisita ali do bairro"));
+        this.places.add(new Place("Praça da Liberdade", R.drawable.ic_launcher_foreground, 6.4, 4.0F, "Praça famosa de bh"));
     }
 
     //Atributos
@@ -65,6 +65,7 @@ public class PlacesAdapter extends BaseAdapter {
         TextView placeDistance = placeView.findViewById(R.id.txt_place_distance);
 
 
+        placePhoto.setImageResource(atual.getPhotoId());
         placeName.setText(atual.getName());
         placeDescription.setText(atual.getDescription());
         rtBar.setRating(atual.getRate());
