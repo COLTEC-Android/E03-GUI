@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="prev_cityTitle">Belo Horizonte | 36º</string>
+
+    <string name="prev_colum_date">Data</string>
+    <string name="prev_colum_time">Tempo</string>
+    <string name="prev_colum_min">Min</string>
+    <string name="prev_colum_max">Max</string>
+
+    <string name="prev_today">Hoje</string>
+    <string name="prev_tues">Terça</string>
+    <string name="prev_wed">Quarta</string>
+    <string name="prev_min">24ºC</string>
+    <string name="prev_max">29ºC</string>
+
+</resources>

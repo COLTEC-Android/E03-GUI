@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E03-GUI</string>
+    <string name="prev_cityTitle">Belo Horizonte | 97ºF</string>
+    <string name="prev_colum_date">Date</string>
+    <string name="prev_colum_time">Time</string>
+    <string name="prev_colum_min">Min</string>
+    <string name="prev_colum_max">Max</string>
+    <string name="prev_today">Today</string>
+    <string name="prev_tues">Tuesday</string>
+    <string name="prev_wed">Wednesday</string>
+    <string name="prev_min">75ºF</string>
+    <string name="prev_max">84ºF</string>
+    <string name="form_lblName">Name</string>
+    <string name="form_lblEmail">Email</string>
+    <string name="form_lblComent">Comentary</string>
+    <string name="form_btnSend">Send</string>
+</resources>
